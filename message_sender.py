@@ -1,7 +1,7 @@
 import socket
 
 ms = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-host  = "192.168.1.131"
+host  = "localhost"
 port  = 8888
 ainfo =  socket.getaddrinfo(host, port)
 print(ainfo)
